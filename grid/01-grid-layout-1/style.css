@@ -9,23 +9,25 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
 }
 
 .container div {
   padding: 15px;
   font-size: 32px;
-  font-family: Helvetica;
+  font-family: Helvetica, serif;
   font-weight: bold;
-  color: white;
+  color: #ff0000;
   border-radius: 15px;
 }
 
 .header {
-  background-color: #006157;
+  backgxround-color: #ee0000;
 }
 
 .sidebar {
-  background-color: #005B94;
+  background-color: #e8e8e8;
 }
 
 .nav {
